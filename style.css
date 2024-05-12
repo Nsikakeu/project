@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@900&display=swap');
+
+body{
+    font-family: "inter", sans-serif;
+    margin: 0;
+    background-image: linear-gradient( 270.3deg,  rgba(84,212,228,1) 0.2%, rgba(68,36,164,1) 100% );
+}
+nav .menu-icon{
+    width: 40px;
+}
+
+.menu-icon .close-icon{
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+school{
+    height: 100vh;
+    position:relative;
+}
+
+school .img{
+    height: 100vh;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.school img,
+.school h2{
+    position:absolute;
+}
+
+menu-container{
+    display: none;
+}
+
+
+nav{
+    position: fixed;
+    max-width: 1200px;
+    left:0;
+    right: 0;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 16px;
+    margin: 0 auto;
+    z-index: 200;
+}
+
+nav a{
+    font-size: 20px;
+    color: #829dff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.school h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color:#fff;
+    margin: 0;
+
+}
+
+.school h2:first-child{
+    font-size: 300px;
+    color:#829dff;
+    bottom: 200px;
+    left: 50;
+    transform: translate(-50% 0);
+}
+
+.school h2:last-child{
+    font-size: 160px;
+    bottom: 60px;
+    left: 50px;
+    transform: translate(-50% 0);
+    rotate: -3deg;
+    text-shadow: 1px 22px 12px rgba(0, 0, 0, 0.4);
+}
+
+
+
